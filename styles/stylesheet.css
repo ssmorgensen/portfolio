@@ -13,14 +13,12 @@
   #lead-paragraph {
     background-color: #ffffff;
     color: #1b1023;
-    width: 55%;
     padding: 1rem;
     text-align: center;}
   .project {
     background-color: #e7dcef;
     color: #281834;
     font-weight: bold;
-    width: 55%;
     border-style: dotted;
     border-color: #362046;
     border-width: 1px;
@@ -28,7 +26,6 @@
     text-align: center;}
   .articles {
     background-color: #281834;
-    width: 55%;
     border-style: dashed;
     border-width: 3px;
     border-color: #cfb9df;
@@ -50,6 +47,10 @@
     background-color: #ffffff;
     font-weight: bolder;
     color: #ff0000;}
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
   a:link{
     color: #1b1023;}
   a:visited {
