@@ -1,5 +1,6 @@
   body {
-    background-color: #dbcbe7;}
+    background-color: #dbcbe7;
+    font-family: "Quicksand", Tahoma, sans-serif;}
   h1 {
     color: #1b1023;}
   h2 {
@@ -9,7 +10,8 @@
   h4 {
     color: #8650af;}
   p {
-    color: #362046;}
+    color: #362046;
+    font-weight: 600;}
   #lead-paragraph {
     background-color: #ffffff;
     color: #1b1023;
@@ -55,3 +57,13 @@
     color: #1b1023;}
   a:visited {
     color: #9362b7;}
+  .flexbox-rows {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;}
+  .box {
+    width: 33%;}
+  .box-2 {
+    width: 25%;}  }
