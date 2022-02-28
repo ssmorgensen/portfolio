@@ -23,16 +23,24 @@
   img {
     border-width: 3px;
     border-style: dashed;
-    border-color: #362046;}
+    border-color: #362046;
+    transition: filter 2s, transform 7s;
+    transition-timing-function: ease-in;}
   img:hover {
-    filter: grayscale(100%);} 
+    filter: grayscale(100%);
+    transform: rotate(360deg);}
   a:link {
     color: #1b1023;
-    font-weight: bold;}
+    font-weight: 600;}
   a:visited {
     color: #9362b7;}
+  i {
+    transition: font-size 4s;
+    transition-delay: 1s;}
   i:nth-child(2n+1) {
     color: #9362b7;}
+  i:hover {
+    font-size: 2em;}
   #lead-paragraph {
     background-color: #ffffff;
     color: #1b1023;
