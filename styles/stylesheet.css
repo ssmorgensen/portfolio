@@ -12,6 +12,27 @@
   p {
     color: #362046;
     font-weight: 600;}
+  article {
+    background-color: #281834;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #cfb9df;
+    padding: .5rem;}
+  article p {
+    color: #ffffff;}
+  img {
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #362046;}
+  img:hover {
+    filter: grayscale(100%);} 
+  a:link {
+    color: #1b1023;
+    font-weight: bold;}
+  a:visited {
+    color: #9362b7;}
+  i:nth-child(2n+1) {
+    color: #9362b7;}
   #lead-paragraph {
     background-color: #ffffff;
     color: #1b1023;
@@ -26,14 +47,6 @@
     border-width: 1px;
     padding: .5rem;
     text-align: center;}
-  .articles {
-    background-color: #281834;
-    border-style: dashed;
-    border-width: 3px;
-    border-color: #cfb9df;
-    padding: .5rem;}
-  .articles-p {
-    color: #ffffff;}
   .important {
     background-color: #281834;
     color: #cfb9df;
@@ -41,10 +54,6 @@
   #footer-text {
     color: #1b1023;
     font-style: italic;}
-  img {
-    border-width: 3px;
-    border-style: dashed;
-    border-color: #362046;}
   .important:hover {
     background-color: #ffffff;
     font-weight: bolder;
@@ -53,10 +62,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;}
-  a:link{
-    color: #1b1023;}
-  a:visited {
-    color: #9362b7;}
   .flexbox-rows {
     display: flex;
     flex-direction: row;
