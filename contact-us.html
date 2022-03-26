@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a4876c433f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+      <p id="lead-paragraph">Would you like more information or to set up a meeting with Fio or her staff? Fill out the form below and
+        we'll respond in 3-5 business days. Any forms received with incomplete information will be disqualified.</p>
+    <form method="GET">
+      <label>Your full name:
+        <input type="text" name="requesterName" >
+      </label>
+      <label>Your email address:
+        <input type="email" name="requesterEmail">
+      </label>
+
+      <fieldset>
+        <legend>What best describes you?</legend>
+        <label>
+          <input type="radio" name="personaType" value="press">I am a member of the press
+        </label>
+        <label>
+          <input type="radio" name="personaType" value="researcher">I am a cat scholar or researcher
+        </label>
+        <label>
+          <input type="radio" name="personaType" value="fan">I am a Fio enthusiast or "Fi-Fan"
+        </label>
+      </fieldset>
+
+      <label>How many hours a day is someone usually home to keep a pet company?
+        <select name="hours">
+          <option value="few">Less than 10</option>
+          <option value="more">10-16</option>
+          <option value="many">More than 16</option>
+        </select>
+      </label>
+
+      <input type="submit" value="Submit Request">
+
+    </form>
+    <footer id="footer-text">This webpage was not created by a cat.</footer>
+    <i class="fa-solid fa-cat"></i>
+    <i class="fa-solid fa-cat"></i>
+    <i class="fa-solid fa-cat"></i>
+  </body>
+</html>

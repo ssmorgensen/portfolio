@@ -80,3 +80,42 @@
     width: 600px;}
   .box-2 {
     width: 425px;}
+
+  button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: block;
+    margin: 1rem;}
+
+  fieldset {
+    background-color: #ffffff;
+    border-style: dotted;
+    border-color: #362046;
+    border-width: 1px;
+    font-weight: bold;
+    padding: .5rem;}
+
+  fieldset input {
+    display: inline;}
+
+  label {
+    display: block;
+    font-weight: bold;}
+
+  input[type=submit] {
+    background-color: #ffffff;
+    color: #281834;
+    font-weight: bold;
+    border-style: dotted;
+    border-color: #362046;
+    border-width: 1px;
+    padding: .5rem;
+    text-align: center;}
+
+    input[type=password]:focus {
+      background-color: seagreen;
+      outline: none;}
+    input {
+      border-radius: 5px;}
