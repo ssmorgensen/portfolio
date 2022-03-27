@@ -20,7 +20,9 @@
       <label>Your email address:
         <input type="email" name="requesterEmail">
       </label>
-
+      <label>Your phone number:
+        <input type="tel" name="requesterPhone" placeholder="111-111-1111" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </label>
       <fieldset>
         <legend>What best describes you?</legend>
         <label>
@@ -33,17 +35,18 @@
           <input type="radio" name="personaType" value="fan">I am a Fio enthusiast or "Fi-Fan"
         </label>
       </fieldset>
-
-      <label>How many hours a day is someone usually home to keep a pet company?
-        <select name="hours">
-          <option value="few">Less than 10</option>
-          <option value="more">10-16</option>
-          <option value="many">More than 16</option>
+      <label>What is the nature of your contact request?
+        <select name="requestType">
+          <option value="interview">Interview, profile, or photography</option>
+          <option value="social">Social or fan visit</option>
+          <option value="event">Special event request</option>
+          <option value="information">I'd like to receive a brochure or other information about Fio</option>
         </select>
       </label>
-
+      <label>Please provide additional details regarding the nature of your request, including preferred date(s):
+        <textarea name="details" rows="8" cols="50" placeholder="Provide additional details here"></textarea>
+      </label>
       <input type="submit" value="Submit Request">
-
     </form>
     <footer id="footer-text">This webpage was not created by a cat.</footer>
     <i class="fa-solid fa-cat"></i>

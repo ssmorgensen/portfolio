@@ -81,6 +81,8 @@
   .box-2 {
     width: 425px;}
 
+  /*CSS for form is below*/
+
   button, input, select, textarea {
     font-family: inherit;
     font-size: 100%;
@@ -114,8 +116,5 @@
     padding: .5rem;
     text-align: center;}
 
-    input[type=password]:focus {
-      background-color: seagreen;
-      outline: none;}
     input {
       border-radius: 5px;}
