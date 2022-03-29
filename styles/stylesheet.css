@@ -11,7 +11,8 @@
     color: #8650af;}
   p {
     color: #362046;
-    font-weight: 600;}
+    font-weight: 600;
+    line-height: 1.5}
   article {
     background-color: #281834;
     border-style: dashed;
@@ -31,9 +32,10 @@
     transform: rotate(360deg);}
   a:link {
     color: #1b1023;
-    font-weight: 600;}
+    font-weight: 600;
+    padding: .5em}
   a:visited {
-    color: #9362b7;}
+    color: #6F428F;}
   i {
     transition: font-size 4s;
     transition-delay: 1s;}
@@ -97,7 +99,8 @@
     border-color: #362046;
     border-width: 1px;
     font-weight: bold;
-    padding: .5rem;}
+    padding: .5rem;
+    margin: 1rem;}
 
   fieldset input {
     display: inline;}
